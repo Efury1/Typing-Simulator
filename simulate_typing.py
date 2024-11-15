@@ -5,6 +5,7 @@ from colorama import Fore, Style
 def simulate_typing(code_lines, line_delay=0.5, char_delay=0.05):
     """
     Simulate typing out code line by line with delays.
+    This has been developed for Youtube videos.
 
     :param code_lines: List of code lines to "type out"
     :param line_delay: Delay between lines (in seconds)
