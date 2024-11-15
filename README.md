@@ -23,7 +23,7 @@ pip install colorama
 
 ## Usage
 
-The script is easy to use. It prompts the user to enter the code that they wish to display with the typing effect. Once the user has entered all the lines of the script, typing `END` on a new line will finish the input and begin the typing simulation.
+The script is easy to use. Put your code in the text file and run the file. Once the command line has entered all the lines of the text file, it will end.x
 
 ### Running the Script
 
