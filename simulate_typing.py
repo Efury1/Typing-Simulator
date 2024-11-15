@@ -39,7 +39,7 @@ def gather_user_input_from_file(file_path):
 def main():
     # Set the path to your Notepad text file in the same directory as this script
     script_directory = os.path.dirname(os.path.abspath(__file__))  # Get the directory where the script is located
-    file_path = os.path.join(script_directory, "script.txt")  # Path to 'script.txt' in the same directory
+    file_path = os.path.join(script_directory, "example.txt")  # Path to 'script.txt' in the same directory
 
     # Get user input from the specified file
     user_input = gather_user_input_from_file(file_path)
