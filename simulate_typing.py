@@ -18,6 +18,7 @@ def simulate_typing(code_lines, line_delay=0.5, char_delay=0.05):
             time.sleep(char_delay)  # Delay for typing effect
         print()  # Move to the next line after finishing the current one
         time.sleep(line_delay)  # Delay between lines
+    print() # Add an extra blanl line after all lines are printing
 
 def gather_user_input():
     print("Enter the script you want to simulate(type 'END' on a new line to finish):")
